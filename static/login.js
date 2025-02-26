@@ -1,9 +1,29 @@
 "use strict"
 
 $(document).ready(function () {
-    const aRegister = $("#register")
+    const aRegisterStudent = $("#register-student")
+    const aRegisterTeacher = $("#register-teacher")
+    const aLogin = $(".login")
+    const loginSection = $("#login-section").show()
+    const registerSectionTeacher = $("#register-section-teacher").hide()
+    const registerSectionStudent = $("#register-section-student").hide()
 
-    aRegister.on("click", function(){
-        alert("registrati")
+    aLogin.on("click", function(){
+        loginSection.show()
+        registerSectionStudent.hide()
+        registerSectionTeacher.hide()
     })
+
+    aRegisterTeacher.on("click", function(){
+        loginSection.hide()
+        registerSectionTeacher.show()
+        registerSectionStudent.hide()
+    })
+
+    aRegisterStudent.on("click", function(){
+        loginSection.hide()
+        registerSectionTeacher.hide()
+        registerSectionStudent.show()
+    })
+
 })

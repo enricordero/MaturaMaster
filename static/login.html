@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/icoVallauri.png" type="image/png" />
+    <link rel="icon" type="image/x-icon" href="./img/MaturaMaster.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="./login.css" />
@@ -18,14 +18,45 @@
 </head>
 <body>
     <section id="login-section">
-        <h2>Login</h2>
-        <div id="login">
+        <h2>Accedi</h2>
+        <div id="formLogin">
             <p>Campo obbligatorio *</p>
             <input type="text" id="username" name="username" placeholder="Username *"><br><br>
             <input type="password" id="password" name="password" placeholder="Password *"><br><br>
             <button type="submit">ACCEDI</button>
         </div>
-        <span>Non hai un account? <a href="#" id="register">Registrati qui!</a></span>
+        <span>
+            Non hai un account? <br>
+            <a href="#" id="register-student">Registrati come studente</a> <br>
+            <a href="#" id="register-teacher">Registrati come professore</a> <br>
+        </span>
+    </section>
+
+    <section id="register-section-teacher">
+        <h2>Registrati</h2>
+        <div id="formRegister">
+            <p>Campo obbligatorio *</p>
+            <input type="text" id="username" name="username" placeholder="Username *"><br><br>
+            <input type="password" id="password" name="password" placeholder="Password *"><br><br>
+            <input type="email" id="email" name="email" placeholder="Email *"><br><br>
+            <input type="text" id="specializzazione" name="specializzazione" placeholder="Specializzazione *"><br><br>
+            <input type="text" id="telefono" name="telefono" placeholder="Numero di telefono"><br><br>
+            <button type="submit">REGISTRATI</button>
+        </div>
+        <span><a href="#" class="login">Torna al login</a></span>
+    </section>
+
+    <section id="register-section-student">
+        <h2>Registrati</h2>
+        <div id="formRegister">
+            <p>Campo obbligatorio *</p>
+            <input type="text" id="username" name="username" placeholder="Username *"><br><br>
+            <input type="password" id="password" name="password" placeholder="Password *"><br><br>
+            <input type="email" id="email" name="email" placeholder="Email *"><br><br>
+            <input type="text" id="telefono" name="telefono" placeholder="Numero di telefono"><br><br>
+            <button type="submit">REGISTRATI</button>
+        </div>
+        <span><a href="#" class="login">Torna al login</a></span>
     </section>
 </body>
 
