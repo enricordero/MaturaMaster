@@ -7,6 +7,8 @@ $(document).ready(function () {
     const loginSection = $("#login-section").show()
     const registerSectionTeacher = $("#register-section-teacher").hide()
     const registerSectionStudent = $("#register-section-student").hide()
+    const btnAccedi = $("#btnLogin")
+    const btnRegister = $("#btnRegister")
 
     aLogin.on("click", function(){
         loginSection.show()
