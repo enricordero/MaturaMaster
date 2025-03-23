@@ -1,0 +1,12 @@
+[
+    {"username":"pippo", "password":"pippo", "email":"pippo@example.com", "citta": "Alba", "insegnante": true},
+    {"username":"pluto", "password":"pluto", "email":"pippo@example.com", "citta": "Fossano", "insegnante": false},
+    {"username":"sonny", "password":"sonny", "email":"pippo@example.com", "citta": "Alba", "insegnante": true},
+    {"username":"sally", "password":"sally", "email":"pippo@example.com", "citta": "Asti", "insegnante": true},
+    {"username":"fanny", "password":"fanny", "email":"pippo@example.com", "citta": "Torino", "insegnante": true},
+    {"username":"colly", "password":"colly", "email":"pippo@example.com", "citta": "Savigliano", "insegnante": false},
+    {"username":"sanny", "password":"sanny", "email":"pippo@example.com", "citta": "Savigliano", "insegnante": false},
+    {"username":"annie", "password":"annie", "email":"pippo@example.com", "citta": "Alba", "insegnante": false},
+    {"username":"kelly", "password":"kelly", "email":"pippo@example.com", "citta": "Saluzzo", "insegnante": true},
+    {"username":"minni", "password":"minni", "email":"pippo@example.com", "citta": "Cavallermaggiore", "insegnante": false}
+]
